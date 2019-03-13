@@ -12,7 +12,7 @@ var app = express();
 
 // 设置 Mongoose 连接
 const mongoose = require('mongoose');
-var mongoDB = process.env.MONGODB_URI || 'mongodb://your_user_id:your_password@ds119748.mlab.com:19748/local_library';
+const mongoDB = process.env.MONGODB_URI ||'mongodb://tony:asdf30054@ds161764.mlab.com:61764/expresspractice';
 var options = {  
   server: {
       auto_reconnect: true,
